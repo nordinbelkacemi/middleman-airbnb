@@ -1,4 +1,4 @@
-#about {
+#team {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -28,6 +28,12 @@
     font-size: 15px;
   }
   .fa-heart {
-    color: #D23333;
+    color: $deep-blue;
+  }
+  .github-link {
+    text-decoration: none;
+    &:hover {
+      color: $deep-blue;
+    }
   }
 }
