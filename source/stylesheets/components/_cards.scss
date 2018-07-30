@@ -1,6 +1,6 @@
 .container {
   background: $deep-blue;
-  padding: 40px;
+  padding: 50px;
   width: 100vw;
 }
 
@@ -52,4 +52,9 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.text-center {
+  color: $light-blue;
+  margin-bottom: 50px;
 }
